@@ -20,7 +20,7 @@ document.querySelector('.check').addEventListener('click', function () {
 
   //condition untuk secret number hampir sama or sama dengan input number
   if (!guess) {
-    document.querySelector('.message').textContent = 'Takde message anjir';
+    document.querySelector('.message').textContent = 'Please put a number between 1-20 :)';
   } else if (guess === secretNumber) {
     if (scoreNum > highscore) {
       highscore = scoreNum;
